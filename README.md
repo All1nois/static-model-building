@@ -3,59 +3,51 @@ This project is a solution to one of the tasks set in practice.
 
 ![image](https://github.com/user-attachments/assets/59035000-463c-44da-8e9f-5d1b51b0eb59)
 
-# Problem Description
-Using the predator-prey relationship modeling method for option 1:
-1. Describe the interaction of 2-x populations using appropriate kinetic equations under different parameters and initial conditions;
-2.	Construct a phase portrait of the system;
-3.	Investigate using a PC at which parameter ratios the predator-prey model practically transforms into a natural growth model.
-Assumptions:
-- “Predator” and “Victim” inhabit some space;
-- “Victim” has no competition for space, food resources;
-- “Victim” has: reproduction process, natural death, death by “Predator”;
-- “Predator” feeds only on “Victim”;
-- Predator and Victim populations do not take into account biochemical physiological processes.
+<h2>Скачать приложение</h2>
 
-# Required formulas and notations:
-x_0 - initial number of victims;
-
-y_0 - initial number of predators;
-
-x_ST - stationary value of the number of victims;
-
-y_ST - stationary value of the number of predators;
-
-γ - specific birth rate of “victim”; 
-
-δ - specific fertility rate of the “predator”;
-
-σ - specific natural mortality rate of the “victim”;
-
-β - specific natural mortality rate of the “predator”;
-
-ε - biotic potential of the victim population;
-
-(γ - σ) - growth coefficient;
-
-α - coefficient of death due to victim-predator encounter (1/α - thinning of the population by 1/α times);
-
-β - coefficient of natural predator mortality;
-
-xt - number of “victims” at time t;
-
-yt - number of “victims” at time t.
-
-# Example of use
-
-Baseline data:
-- System: Amur tiger - wild boar;
-- ε,unit/year: 0.3;
-- β,units/year: 0.2;
-- α: 0,0005;
-- х0: 1000;
-- y0: 300;
-- δ: 0,0002;
+[Lotka-Volterra model building .zip](https://github.com/user-attachments/files/18511485/PracticTwo.zip)
 
 
-The program execution resulted in the diagram from the figure. 
+<h2>Необходимые обозначения и формулы</h2>
+<h3>Допущения</h3>
+    <ul>
+        <li>«Хищник» и «Жертва» обитает в некотором пространстве;</li>
+        <li>У «Жертвы» нет борьбы за пространство, пищевые ресурсы;</li>
+        <li>У «Жертвы» есть: процесс размножения, естественная смерть, смерть от «Хищника»;</li>
+        <li>«Хищник» питается только «Жертвой»;</li>
+        <li>В популяциях хищника и жертвы не учитываются биохимические физиологические процессы.</li>
+    </ul>
+
+ <h3>Обозначения</h3>
+    <ul>
+        <li><strong>x<sub>0</sub>:</strong> исходное число жертв;</li>
+        <li><strong>y<sub>0</sub>:</strong> исходное число хищников;</li>
+        <li><strong>x<sub>ST</sub>:</strong> стационарное значение численности жертв;</li>
+        <li><strong>y<sub>ST</sub>:</strong> стационарное значение численности хищников;</li>
+        <li><strong>γ:</strong> удельный коэффициент рождаемости «жертвы»;</li>
+        <li><strong>δ:</strong> удельный коэффициент рождаемости «хищника»;</li>
+        <li><strong>σ:</strong> удельный коэффициент естественной смертности «жертвы»;</li>
+        <li><strong>β:</strong> удельный коэффициент естественной смертности «хищника»;</li>
+    </ul>
+
+<h2>Пример использования программы</h2>
+
+<h3>Исходные данные:</h3>
+    <ul>
+        <li>Система: Амурский тигр – кабан;</li>
+        <li>ε,ед\год: 0,3;;</li>
+        <li>β,ед\год: 0,2;</li>
+        <li>α: 0,0005;</li>
+        <li>х0: 1000;</li>
+        <li>y0: 300;</li>
+        <li>δ: 0,0002;</li>
+    </ul>
+
 
 ![image](https://github.com/user-attachments/assets/9f9b6dc5-3bec-4135-b7af-17df085cb6ee)
+
+
+<p>При вводе неккоректных данных программа выдает ошибку</p>
+
+![image](https://github.com/user-attachments/assets/43e30c83-2b83-4992-a42b-ea842f91bb1b)
+
